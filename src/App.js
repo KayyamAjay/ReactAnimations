@@ -12,6 +12,7 @@ const App = () => {
   };
   const closeHandler = () => {
     setShow(false);
+    console.log("clicked");
   };
   return (
     <div className="App">
