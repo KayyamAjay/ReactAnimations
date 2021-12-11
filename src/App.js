@@ -8,6 +8,7 @@ const App = () => {
   const [show, setShow] = React.useState(false);
   const showHandler = () => {
     setShow(true);
+    console.log("clicked");
   };
   const closeHandler = () => {
     setShow(false);
